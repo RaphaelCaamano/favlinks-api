@@ -31,3 +31,4 @@ const getFavLinks (req, res) {
 // return functions as exports to call in our index page 
 module.exports = { 
     getFavLinks
+}
