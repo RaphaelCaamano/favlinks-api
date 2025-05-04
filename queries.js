@@ -24,6 +24,7 @@ const getFavLinks (req, res) {
              console.log(result)
              res.status(200).json(result.rows) 
          }
+    
     })
 }
 
