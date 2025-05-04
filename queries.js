@@ -20,3 +20,13 @@ const getFavLinks (req, res) {
              // do something with the error!  
              //res.status(400).json("Something went wrong") 
              throw error 
+         } else { 
+             console.log(result)
+             res.status(200).json(result.rows) 
+         }
+    })
+}
+
+// return functions as exports to call in our index page 
+module.exports = { 
+    getFavLinks
